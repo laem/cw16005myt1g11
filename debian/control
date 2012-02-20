@@ -1,0 +1,15 @@
+Source: cw1-6005-myt1g11
+Section: internet
+Priority: extra
+Maintainer: Thomas <myt1g11@soton.ac.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/cw1-6005-myt1g11.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/cw1-6005-myt1g11.git;a=summary
+
+Package: cw1-6005-myt1g11
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, php (>=5.3)
+Description: INFO6005 first coursework package
+ INFO6005 first coursework package, which installs a php RSS feed reader
