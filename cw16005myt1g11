@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+cd /usr/share/cw16005myt1g11/
+php index.php $@
