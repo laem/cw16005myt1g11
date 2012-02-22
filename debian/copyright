@@ -3,8 +3,8 @@ Upstream-Name: cw1-6005-myt1g11
 Source: <url://example.com>
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2012 Thomas <myt1g11@soton.ac.uk>
+
 License: GPL-3.0+
 
 Files: debian/*
