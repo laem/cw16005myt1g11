@@ -51,6 +51,11 @@
 			$config = conf_from_file($config_file);
 		}
 	}
+	
+	if (@$config["version"]) {
+		print_version();
+		exit(1);
+	}
 
 	if (@$config["help"]) {
 		print_help();
@@ -115,6 +120,11 @@
 			echo "\n\n";		
 			}
 		}
+	}
+	
+	function print_version(){
+		echo "cw16005myt1g11 version 1.0.1"; //This is only for the purpose of having a source changelog
+		echo "\n";
 	}
 
 	function print_help() {
