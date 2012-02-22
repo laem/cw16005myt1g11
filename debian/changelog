@@ -1,5 +1,12 @@
-cw16005myt1g11 (1.0.0) lucid; urgency=low
+cw16005myt1g11 (1.0) stable; urgency=low
 
-  * Initial Release.
+  * first commit
+  * original coursework source code
+  * Initial debian package files added
+  * Debian package files updated or created (principaly php5-cli instead of php5 dependency in control, .dir file), bash script added in the source as well as Makefile to execute the index.php file from /usr/bin without using an debian/install file or modifying the debian/rules 
+  * debian directory files are now really updated, changing the dependencies in control and the package name without dashes
+  * Updated debian README
+  * removed old debian files
+  * updated the debian changelog to reflect changes made to the package (not the upstream)
 
- -- Mael Thomas <myt1g11@soton.ac.uk>  Mon, 20 Feb 2012 13:33:36 +0000
+ -- Mael Thomas <myt1g11@soton.ac.uk>  Wed, 22 Feb 2012 16:54:42 +0000
